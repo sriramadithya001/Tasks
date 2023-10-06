@@ -22,7 +22,7 @@ public class Employee {
         createEmployee employee_2 = new createEmployee("kumar",35000, 2013, "XYY Street");
         createEmployee employee_3 = new createEmployee("johny",33000, 2012, "YYZ Street");
         
-        System.out.println("Name    salary      Year_of_joining     Address");
+        System.out.println("Name\tsalary\tYear_of_joining\tAddress");
         employee_1.printEmployee();
         employee_2.printEmployee();
         employee_3.printEmployee();
