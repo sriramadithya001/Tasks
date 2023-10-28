@@ -3,7 +3,7 @@ import java.util.*;
 public class Hospital{
            static double Doctor = 9;
 	   static M_P1 = 8;
-	   statci M_p2 = 8;
+	   static M_p2 = 8;
        
 	public static void meet1(Patient p){
            double ot  = p.inTime;
