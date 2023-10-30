@@ -11,7 +11,7 @@ public class SpecialString {
 		int count = 0;
 		for(int k=0;k<26;k++) count += (cnt[k] ? 1 : 0);
 		if(count == 1) sp++;
-		else if(count ==2 && (j-i+1)%2==1) sp++;
+		else if(count ==2 && (j-i+1)%2==1 && cnt[s.charAt(j-i+1)-'a']==1) sp++;
 	    }
 	}
 	System.out.println(sp);
