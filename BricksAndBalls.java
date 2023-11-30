@@ -5,7 +5,7 @@ class Game {
     static int N;
     static int ball_row, ball_col;
     static void initialize() {
-	// walls
+	
 	for(int i=0;i<N;i++) {
 	    for(int j=0;j<N;j++) {
 		if(i==0 || j==0 || i==N-1 || j==N-1) board[i][j] = 'w';
@@ -13,10 +13,10 @@ class Game {
 	    }
 	}
 
-	// ground
+	
 	for(int j=1;j<N-1;j++) board[N-1][j] = 'g';
 
-	// ball
+
 	board[N-1][N/2] = 'o';
     }
 
